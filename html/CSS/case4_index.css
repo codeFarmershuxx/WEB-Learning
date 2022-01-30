@@ -1,0 +1,23 @@
+.title {
+    width: 200px;
+    height: 50px;
+    background-color: #808080;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 50px;
+}
+
+p {
+    width: 500px;
+    font-size: 20px;
+}
+
+.sp1 {
+    font-weight: bold;
+}
+
+.sp2 {
+    color: red;
+}
