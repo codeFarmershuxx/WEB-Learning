@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .box {
+        width: 450px;
+        margin: 0 auto;
+      }
+      ul {
+        list-style: none;
+      }
+      .item {
+        float: left;
+        width: 148px;
+        text-align: center;
+        border: 1px solid blue;
+        background-color: blue;
+        color: white;
+      }
+      .item:hover {
+        background-color: lightblue;
+      }
+
+      .item ul {
+        display: none;
+        background: white;
+        color: black;
+      }
+      .item:hover ul {
+        display: block;
+      }
+      .item li:hover {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="box">
+      <li class="item">
+        111
+        <ul>
+          <li>c++</li>
+          <li>python</li>
+          <li>c#</li>
+          <li>html/css</li>
+        </ul>
+      </li>
+      <li class="item">
+        222
+        <ul>
+          <li>PHP</li>
+          <li>Java</li>
+        </ul>
+      </li>
+      <li class="item">
+        333
+        <ul>
+          <li>Javascript</li>
+          <li>c</li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
